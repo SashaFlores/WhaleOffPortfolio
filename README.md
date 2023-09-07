@@ -6,15 +6,18 @@
 
 Is to determine which portfolio is performing the best across many areas: volatility, returns, risk, and Sharpe ratios.
 
-You will need to create a tool (an analysis notebook) that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. You will be given the historical daily returns of several portfolios: some from the firm's algorithmic portfolios, some that represent the portfolios of famous "whale" investors like Warren Buffett, and some from the big hedge and mutual funds. You will then use this analysis to create a custom portfolio of stocks and compare its performance to that of the other portfolios, as well as the larger market (S&P 500).
+It includes the historical daily returns of several portfolios: 
+- some are an algorithmic portfolios.
 
-In this homework assignment, you will be accomplishing three main tasks:
+- some represent the portfolios of famous "whale" investors like Warren Buffett.
 
-1. [Read in and Wrangle Returns Data](#Prepare-the-Data)
-2. [Determine Success of Each Portfolio](#Conduct-Quantitative-Analysis)
-3. [Choose and Evaluate a Custom Portfolio](#Create-Custom-Portfolio)
+- Some are from the big hedge and mutual funds. 
 
----
+- I will then use this analysis to create a custom portfolio of stocks and compare its performance to that of the other portfolios, as well as the larger market (S&P 500).
+
+
+
+
 
 ## Instructions
 
@@ -85,7 +88,7 @@ Investigate the algorithmic trading portfolios are doing so well compared to the
 5. Add your portfolio returns to the DataFrame with the other portfolios and rerun the analysis. How does your portfolio fair?
 
 
-## Your analysis should include the following:
+## The analysis includes the following:
 
 - Using all portfolios:
   - The annualized standard deviation (252 trading days) for all portfolios.
@@ -95,7 +98,7 @@ Investigate the algorithmic trading portfolios are doing so well compared to the
 - Using your custom portfolio and one other of your choosing:
   - The plotted beta. . How does your portfolio fair?
 
----
+
 
 ## Resources
 
